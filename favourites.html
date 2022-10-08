@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body onload="showFavourites()">
+    <nav>
+      <div class="nav">
+        <a href="index.html"> <span class="app-title">Meals App</span></a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="favourites.html">Favourites</a></li>
+        </ul>
+
+        <div class="search-container">
+          <input class="search-input" disabled />
+          <div class="search-img-container">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/54/54481.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </nav>
+    <h1>Favourites</h1>
+    <div class="fav-container">
+      <div class="fav-card">
+        <div class="fav-img-container">
+          <img src="" alt="" />
+        </div>
+        <div class="fav-title"></div>
+
+        <button class="fav-card-btn" type="button"></button>
+      </div>
+    </div>
+
+    <script src="favourites.js"></script>
+  </body>
+</html>
